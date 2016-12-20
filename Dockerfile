@@ -1,4 +1,4 @@
-FROM python: onbuild
+FROM python:onbuild
 
 # Install dependencies
 RUN pip install -r requirements.txt
