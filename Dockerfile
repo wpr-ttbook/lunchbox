@@ -15,7 +15,7 @@ RUN git clone https://github.com/wpr-ttbook/lunchbox.git
 WORKDIR /home/lunchbox/lunchbox/
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN sudo pip install -r requirements.txt
 RUN npm install
 
 #fabricate app
