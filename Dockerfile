@@ -7,7 +7,7 @@ RUN  pip install --upgrade pip
 
 # Clone repo
 RUN git clone https://github.com/wpr-ttbook/lunchbox.git
-WORKDIR /home/lunchbox/
+WORKDIR /home/lunchbox/lunchbox/
 
 # Install dependencies
 RUN pip install -r requirements.txt
