@@ -7,7 +7,9 @@ RUN  pip install --upgrade pip
 
 # Clone repo
 RUN git clone https://github.com/wpr-ttbook/lunchbox.git
-WORKDIR /home/lunchbox/lunchbox/
+WORKDIR /home/lunchbox/
+
+
 
 # Install dependencies
 RUN pip install -r requirements.txt
@@ -15,3 +17,7 @@ RUN npm install
 
 #fabricate app
 RUN fab app
+
+
+#open a port
+EXPOSE 8000
