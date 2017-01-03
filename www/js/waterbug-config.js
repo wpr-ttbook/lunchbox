@@ -6,7 +6,7 @@ var elementPadding = 40; // padding around the logo and credit text
 // the name of the logo object should match the value of the corresponding radio button in the HTML.
 var logos = {
     'TTBOOK': {
-        whitePath: '../img/TTBOOK-reverse.png', // path to white logo
+        whitePath: '../img/TTBOOK_color_reverse.svg', // path to white logo
         blackPath: '../img/TTBOOK-black.png', // path to black logo
         w: 400, // width of logo
         h: 122, // height of logo
