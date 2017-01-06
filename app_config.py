@@ -15,10 +15,10 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox'
+PROJECT_SLUG = ''
 
 # Project name to be used in file paths
-PROJECT_FILENAME = 'lunchbox'
+PROJECT_FILENAME = ''
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lunchbox'
@@ -38,6 +38,8 @@ DEFAULT_MAX_AGE = 20
 FILE_SERVER_USER = 'ubuntu'
 FILE_SERVER = 'tools.apps.npr.org'
 FILE_SERVER_PATH = '~/www'
+
+AWS_S3_HOST = "s3-eu-west-2.amazonaws.com"
 
 # These variables will be set at runtime. See configure_targets() below
 S3_BUCKET = None

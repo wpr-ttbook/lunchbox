@@ -48,6 +48,14 @@ var copyrightOptions = {
         source: orgName, // How the source should appear on the image, e.g. 'NPR'
         display: orgName, // How the option will appear in the dropdown menu
     },
+    'Public Domain': {
+        showPhotographer: true,
+        showSource: false,
+        photographerRequired: false,
+        sourceRequired: false,
+        source: 'CC0 1.0',
+        display: 'Public Domain'
+    },
     'CC BY 3.0': {
         showPhotographer: true,
         showSource: false,
