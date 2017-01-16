@@ -5,19 +5,19 @@ var elementPadding = 40; // padding around the logo and credit text
 // logo configuration
 // the name of the logo object should match the value of the corresponding radio button in the HTML.
 var logos = {
-    'TTBOOK': {
-        whitePath: '../img/TTBOOK_color_reverse.svg', // path to white logo
-        blackPath: '../img/TTBOOK-black.png', // path to black logo
-        w: 400, // width of logo
-        h: 122, // height of logo
-        display: 'TTBOOK'
+    'WPR': {
+        whitePath: '../img/WPRLogo_horizontal_color.svg', // path to white logo
+        blackPath: '../img/WPRLogo_horizontal_color.svg', // path to black logo
+        w: 200, // width of logo
+        h: 55, // height of logo
+        display: 'WPR'
     },
-    'tree': {
-        whitePath: '../img/TTBOOK-tree.png', // path to white logo
-        blackPath: '../img/TTBOOK-tree.png', // path to black logo
-        w: 102,
-        h: 102,
-        display: 'Tree Only'
+    'Just Logo': {
+        whitePath: '../img/WPRLogo_horizontal_color.svg', // path to white logo
+        blackPath: '../img/WPRLogo_horizontal_color.svg', // path to black logo
+        w: 200, // width of logo
+        h: 55, // height of logo
+        display: 'WPR'
     }
 
 };
@@ -29,7 +29,7 @@ var blackLogoAlpha = '0.6';
 // type
 var fontWeight = 'normal'; // font weight for credit
 var fontSize = '14pt'; // font size for credit
-var fontFace = "Droid Serif"; // font family for credit
+var fontFace = "Roboto Condensed"; // font family for credit
 var fontShadow = 'rgba(0,0,0,0.7)'; // font shadow for credit
 var fontShadowOffsetX = 0; // font shadow offset x
 var fontShadowOffsetY = 0; // font shadow offset y
