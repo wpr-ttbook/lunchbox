@@ -5,19 +5,19 @@ var elementPadding = 40; // padding around the logo and credit text
 // logo configuration
 // the name of the logo object should match the value of the corresponding radio button in the HTML.
 var logos = {
-    'WPR': {
-        whitePath: '../img/WPRLogo_horizontal_color.svg', // path to white logo
-        blackPath: '../img/WPRLogo_horizontal_color.svg', // path to black logo
+    'Sideways': {
+        whitePath: '../img/WisContext-logo-1c-white-HOR.png', // path to white logo
+        blackPath: '../img/WisContext-logo-1c-black-HOR.png', // path to black logo
         w: 200, // width of logo
-        h: 55, // height of logo
-        display: 'WPR'
+        h: 37, // height of logo
+        display: 'Horizontal'
     },
-    'Just Logo': {
-        whitePath: '../img/WPRLogo_horizontal_color.svg', // path to white logo
-        blackPath: '../img/WPRLogo_horizontal_color.svg', // path to black logo
-        w: 200, // width of logo
-        h: 55, // height of logo
-        display: 'WPR'
+    'Stacked': {
+        whitePath: '../img/WisContext-logo-1c-white-stacked.png', // path to white logo
+        blackPath: '../img/WisContext-logo-1c-black-stacked.png', // path to black logo
+        w: 150, // width of logo
+        h: 77, // height of logo
+        display: 'Stacked'
     }
 
 };
@@ -36,7 +36,7 @@ var fontShadowOffsetY = 0; // font shadow offset y
 var fontShadowBlur = 10; // font shadow blur
 
 // copyright options
-var orgName = 'TTBOOK';
+var orgName = 'WisContext';
 var freelanceString = 'for ' + orgName;
 
 var copyrightOptions = {
@@ -48,7 +48,7 @@ var copyrightOptions = {
         source: orgName, // How the source should appear on the image, e.g. 'NPR'
         display: orgName, // How the option will appear in the dropdown menu
     },
-    'Public Domain': {
+    'Public Domain/Unsplash': {
         showPhotographer: true,
         showSource: false,
         photographerRequired: false,
@@ -92,7 +92,7 @@ var copyrightOptions = {
 
 // app load defaults
 var currentCrop = 'twitter'; // default crop size
-var currentLogo = 'TTBOOK'; // default logo slug
+var currentLogo = 'Stacked'; // default logo slug
 var currentLogoColor = 'white'; // default logo color
 var currentTextColor = 'white'; // default text color
 var defaultImage = '../img/test-kitten.jpg'; // path to image to load as test image
