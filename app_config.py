@@ -31,7 +31,7 @@ DEV_CONTACT = 'Mark Riechers'
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'ttbook-quotes'
+PRODUCTION_S3_BUCKET = 'wiscontext-quotes'
 STAGING_S3_BUCKET = 'stage-wpr-apps'
 DEFAULT_MAX_AGE = 20
 

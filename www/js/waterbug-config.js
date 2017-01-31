@@ -54,7 +54,7 @@ var copyrightOptions = {
         photographerRequired: false,
         sourceRequired: false,
         source: 'CC0 1.0',
-        display: 'Public Domain'
+        display: 'Public Domain/Unsplash'
     },
     'CC BY 3.0': {
         showPhotographer: true,
@@ -63,6 +63,22 @@ var copyrightOptions = {
         sourceRequired: false,
         source: 'CC BY 3.0',
         display: 'CC BY 3.0'
+    },
+    'CC BY 2.0': {
+        showPhotographer: true,
+        showSource: false,
+        photographerRequired: false,
+        sourceRequired: false,
+        source: 'CC BY 2.0',
+        display: 'CC BY 2.0'
+    },
+    'CC BY-ND 2.0': {
+        showPhotographer: true,
+        showSource: false,
+        photographerRequired: false,
+        sourceRequired: false,
+        source: 'CC BY-ND 2.0',
+        display: 'CC BY-ND 2.0'
     },
     'CC BY-NC 2.0': {
         showPhotographer: true,
